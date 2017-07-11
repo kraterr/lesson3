@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family:my;
+    src: url(Font/BEBAS___.TTF);
+}
+
+@font-face {
+    font-family:hel;
+    src: url(Font/HelveticaNeueLTStd Lt.otf);
+}
+
+
+body,h1,h2,h3,h4,h5,h6,p{
+	margin:0px;
+	}
+ul{
+	list-style:none;
+	}	
+ul li{
+	float:left;
+	}	
+a{
+	text-decoration:none;
+	}	
+
+.main{
+	width:940px;
+	margin:0px auto;
+	}	
+.clr{
+	clear:both;
+	}	
+	
+/*header css*/	
+#logo{
+	float:left;
+	}
+#menu{
+	float:right;
+	}	
+
+#menu a{
+	display:block;
+	padding-left:30px;
+	font-family:my;
+	color:#b9b9b9;
+	text-transform: uppercase;
+	}
+#menu a:hover{
+	color: #e85f3b;
+}
+
+#acti{
+	color:#0F0;
+	}	
+
+#slidder{
+	background: transparent url("../img/slidder.jpg") no-repeat scroll 0% 0%;
+height: 400px;
+position: relative;
+	}		
+
+#slid{
+	    width: 412px;
+    bottom: 32px;
+    background: #EC7833 none repeat scroll 0% 0%;
+    position: absolute;
+    margin-left: 30px;
+	color:#ffffff;
+	padding:30px 0px;
+	opacity:0.8;
+}
+	
+#slid h2{
+	font-family:my;
+	font-size:18px;
+	}	
+	
+#slid p{
+	padding-top:10px;
+	font-family:hel;
+	font-size:12px;
+	}	
+
+.gallery{
+	width:140px;
+	float:left;
+	margin-top:20px;
+	
+	}	
+.mar{
+	margin-left:20px;
+	}	
+
+/*body css*/
+.offer{
+	width:300px;
+	float:left;
+	margin-top:10px;
+
+	}	
+
+.offer p{
+	font-size:12px;
+	color:#9d9d9d;
+	line-height:20px;
+	
+	}
+.im{
+	float:left;
+	}	
+
+.heading h1{
+
+	font-size:20px;
+	color:#e8663c;
+	padding-top:10px;
+	}	
+
+.more{
+	display:inline-block;
+	padding: 7px 18px;
+	background:#e8663c;
+	color:#fff;
+	font-family:my;
+	margin-top:30px;
+	}		
+
+#rec{
+	margin-top:40px;
+	font-family:my;
+	font-size:18px;
+	color:#e8663c;
+	}	
+	
+.items{
+	float:left;
+	width:200px;
+	margin-top:20px;
+	}	
+.gap{
+	margin-left:40px;
+	}	
+.items h2{
+	margin-top:10px;
+	font-family:my;
+	font-size:16px;
+	color:#b9b9b9;
+	}	
+.items p{
+	color:#eb7a56;
+	}	
+
+/*footer css*/
+#footer{
+	background:#e8663c;
+	}
+.last{
+	width:260px;
+	float:left;
+	padding:24px;
+	color:#fff;
+	}	
+.last p{
+	padding-top:10px;
+	}	
+	
+	
+
+.last ul li{
+	padding-left:20px;
+	}		
+
+#twit{
+	color:#f09f85;
+	}	
